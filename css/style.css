@@ -1,0 +1,135 @@
+@import "nullscss.css";
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	background: url("../img/logo.png") center 0 / 468px no-repeat, url("../img/fon.jpg") center 0 / 1600px no-repeat;
+	background-attachment: fixed;
+}
+.container {
+	overflow: hidden;
+	max-width: 1000px;
+	margin: 900px auto 0;
+	background-color: #ffffff;
+	padding: 15px 15px;
+	background: linear-gradient(180deg, rgba(255, 210, 105, 1) 0%, rgba(0, 0, 0, 1) 100%);
+	/* background: url("../img/fon2.jpg"); */
+}
+
+body {
+	font-family: "Balsamiq Sans", cursive;
+	font-size: 20px;
+	line-height: 1.3;
+	color: rgb(104, 3, 104);
+}
+h1 {
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 700;
+	margin: 0 0 15px 0;
+	text-align: center;
+	text-shadow: -1px 1px 10px #fd2f22;
+}
+h2 {
+	font-size: 30px;
+	font-weight: 700;
+	margin: 0 0 15px 0;
+}
+h3 {
+	font-size: 24px;
+	font-weight: 700;
+	text-decoration: underline;
+}
+p {
+	margin: 0 0 15px 0;
+	text-indent: 30px;
+	text-align: justify;
+}
+span {
+	font-style: italic;
+}
+.img1 {
+	background: url("../img/1.webp") 0 0 / contain no-repeat;
+	height: 500px;
+}
+.img2 {
+	background: url("../img/2.webp") 0 0 / contain no-repeat;
+	height: 500px;
+}
+.img3 {
+	background: url("../img/3.jpg") 0 0 / contain no-repeat;
+	height: 600px;
+}
+.person__dipper {
+	border: 10px solid rgb(82, 23, 219);
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	background: url("../img/Dipper.jpg") 10px center / 222px auto no-repeat,
+		linear-gradient(45deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+	min-height: 280px;
+	margin: 0 0 15px 0;
+}
+.person__sten {
+	border: 10px solid rgb(82, 23, 219);
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	background: url("../img/Sten.jpg") 10px center / 222px auto no-repeat,
+		linear-gradient(45deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+	min-height: 280px;
+	margin: 0 0 15px 0;
+}
+.person__zus {
+	border: 10px solid rgb(82, 23, 219);
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	background: url("../img/Zus.jpg") 10px center / 222px auto no-repeat,
+		linear-gradient(45deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+	min-height: 280px;
+	margin: 0 0 15px 0;
+}
+.person__vendi {
+	border: 10px solid rgb(82, 23, 219);
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	background: url("../img/Vendi.jpg") 10px center / 222px auto no-repeat,
+		linear-gradient(45deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+	min-height: 280px;
+	margin: 0 0 15px 0;
+}
+.person__puhla {
+	border: 10px solid rgb(82, 23, 219);
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	background: url("../img/Puhla.jpg") 10px center / 222px auto no-repeat,
+		linear-gradient(45deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+	min-height: 280px;
+	margin: 0 0 15px 0;
+}
+.person__gideon {
+	border: 10px solid rgb(82, 23, 219);
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	background: url("../img/Gideon.jpg") 10px center / 222px auto no-repeat,
+		linear-gradient(45deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+	min-height: 280px;
+	margin: 0 0 15px 0;
+}
+.text {
+	margin: 0 0 0 240px;
+	padding: 15px;
+}
+
+button {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 20px;
+	color: rgb(15, 15, 15);
+	border-radius: 15px;
+	background: #b5bdc8;
+	background: linear-gradient(to top, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+	padding: 10px 70px;
+	margin: 0 auto;
+	border: 1px solid #333;
+	border-radius: 20px;
+}
