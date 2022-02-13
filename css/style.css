@@ -120,7 +120,7 @@ span {
 	padding: 15px;
 }
 
-button {
+.button {
 	display: inline-block;
 	font-weight: 700;
 	font-size: 20px;
